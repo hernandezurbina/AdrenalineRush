@@ -30,7 +30,7 @@ public class Walk : MonoBehaviour
         }
 
         if(transform.position.y < -15) {
-            SceneManager.LoadScene("MainScene");  
+            SceneManager.LoadScene("PlankWalk");  
         }
     }
 
@@ -47,7 +47,7 @@ public class Walk : MonoBehaviour
         }
 
         if (count == 0 && other.gameObject.CompareTag("TrophyTag")) {
-            SceneManager.LoadScene("EndScene");
+            SceneManager.LoadScene("MonsterHunt");
         }
     }
 

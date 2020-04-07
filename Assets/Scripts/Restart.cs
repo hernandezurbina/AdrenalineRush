@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class Restart : MonoBehaviour
 {
     public void loadLevel() {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("PlankWalk");
+    }
+    public void quitGame()
+    {
+        Debug.Log("Quitting game");
+        Application.Quit();
     }
 }
